@@ -12,11 +12,11 @@ export const projects = [
   {
     title: "Banking App",
     description:
-      "This is a personal banking app. It allows the user to log in with their unique credentials, manage their money, inititate bank transfers, and receive funds. I created this project to showcase my JavaScript and CSS potential.",
+      "This is a personal banking app. It allows the user to log in with their unique credentials, manage their money, inititate bank transfers, and receive funds. I created this project to showcase my JavaScript and CSS potential. Please, take a look at the ReadMe file for login credentials.",
     image: "/images/bank.png",
     tags: ["JavaScript", "CSS", "HTML"],
-    source: "https://google.com",
-    visit: "https://google.com",
+    source: "https://banking-app-project.netlify.app/",
+    visit: "https://github.com/alexandrezahrai/banking-app",
     id: 1,
   },
   {
@@ -24,9 +24,9 @@ export const projects = [
     description:
       "The goal of this project was to test my skills fetching data using an API. In this case I utilized the OpenWeatherMap API to gather and display weather forecasts for various cities in different countries. Additionally, I used this project to display my CSS and design capabilities.",
     image: "/images/weather.png",
-    tags: ["JavaScript", "CSS", "HTML"],
-    source: "https://google.com",
-    visit: "https://google.com",
+    tags: ["JavaScript", "Sass", "HTML"],
+    source: "https://current-weather-project.netlify.app/",
+    visit: "https://github.com/alexandrezahrai/weather-app",
     id: 2,
   },
   {
@@ -35,8 +35,8 @@ export const projects = [
       "Who doesn't like having a little fun? The game of Pig is a very simple dice game in which two players battle to reach 100 points. Each turn, a player repeatedly rolls a die until either a 1 is rolled or the player holds and scores the sum of the rolls. If a player holds, their turn total is added to their total score and it becomes the opponents turn. The goal of this project was to apply my JavaScript knowledge as well as utilizing Sass instead of pure CSS. I am very pleased with the result and hope you are, too!",
     image: "/images/game.png",
     tags: ["JavaScript", "Sass", "HTML"],
-    source: "https://google.com",
-    visit: "https://google.com",
+    source: "https://pig-dice-game-project.netlify.app/",
+    visit: "https://github.com/alexandrezahrai/pig-game",
     id: 3,
   },
 ];
