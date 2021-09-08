@@ -32,9 +32,11 @@ export const BlogCard = styled.div`
   box-shadow: 0 4px 24px rgba(0, 0, 0, 0.04);
   text-align: center;
   transition: border-color, box-shadow 0.1s ease-in-out;
+  transition: transform 450ms;
   &:hover {
     box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.09);
     border-color: #d1d1d1;
+    transform: scale(1.03);
   }
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
@@ -94,18 +96,21 @@ export const ExternalLinks = styled.a`
   align-items: center;
   justify-content: center;
   height: 100%;
-  color: #3b82f6;
+  color: #fff;
   font-size: 1.6rem;
-  padding: 1rem 1.5rem;
-  background: transparent;
-  width: 100px;
-  border-radius: 0.25rem;
+  padding: 0rem 1.5rem;
+  background-color: #117ac9;
+  width: 150px;
+  border-radius: 6px;
   border: 1px solid #eee;
+  transition: border-color 0.1s ease-in-out;
   transition: 0.5s;
+  @media ${(props) => props.theme.breakpoints.sm} {
+    width: 100px;
+  }
   &:hover {
-    text-decoration: underline;
-
-    color: #1d4ed8;
+    border-color: #d1d1d1;
+    background: #2497ff;
   }
 `;
 

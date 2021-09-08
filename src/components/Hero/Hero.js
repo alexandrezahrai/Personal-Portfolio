@@ -19,8 +19,7 @@ const Hero = (props) => (
         Hey, I'm Alex Zahrai!
       </SectionTitle>
       <SectionText>
-        Welcome to my portfolio! I'm a front-end web developer based in the
-        United States.
+        Welcome to my portfolio! I'm a web developer based in the United States.
       </SectionText>
     </LeftSection>
   </Section>

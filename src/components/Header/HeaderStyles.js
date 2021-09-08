@@ -41,7 +41,7 @@ export const Div3 = styled.div`
   justify-content: center;
   align-items: center;
   @media ${(props) => props.theme.breakpoints.sm} {
-    // visibility: hidden;
+    visibility: hidden;
   }
 `;
 

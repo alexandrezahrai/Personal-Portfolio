@@ -6,18 +6,28 @@ export const projects = [
     image: "/images/game.png",
     tags: ["React", "JavaScript", "Material UI", "Commerce.js"],
     source: "https://alex-web-store.netlify.app/",
-    visit: "https://github.com/alexandrezahrai/e-commerce",
+    visit: "https://github.com/alexandrezahrai/webstore",
     id: 0,
+  },
+  {
+    title: "Netflix Clone",
+    description:
+      "I built this clone of Netflix's desktop site in order to showcase my abilities using tools and technologies like React and Firebase, as well as gain more experience working with APIs. Additionally, I gained valuable experience improving my design and UI capabilities, as I wanted to make the website not only functional but pleasant to look at.",
+    image: "/images/game.png",
+    tags: ["React", "JavaScript", "TMDB API", "Firebase"],
+    source: "https://netflix-project-clone.netlify.app/",
+    visit: "https://github.com/alexandrezahrai/netflix-clone",
+    id: 1,
   },
   {
     title: "Banking App",
     description:
-      "This is a personal banking app. It allows the user to log in with their unique credentials, manage their money, inititate bank transfers, and receive funds. I created this project to showcase my JavaScript and CSS potential. Please, take a look at the ReadMe file for login credentials.",
+      "This is a personal banking app. It allows the user to log in with their unique credentials, manage their money, inititate bank transfers, and receive funds. I created this project to showcase my JavaScript and CSS potential. Please, take a look at the ReadMe for login credentials, which can be found by clicking the 'Code' button below.",
     image: "/images/bank.png",
     tags: ["JavaScript", "CSS", "HTML"],
     source: "https://banking-app-project.netlify.app/",
     visit: "https://github.com/alexandrezahrai/banking-app",
-    id: 1,
+    id: 2,
   },
   {
     title: "Weather App",
@@ -27,7 +37,7 @@ export const projects = [
     tags: ["JavaScript", "Sass", "HTML"],
     source: "https://current-weather-project.netlify.app/",
     visit: "https://github.com/alexandrezahrai/weather-app",
-    id: 2,
+    id: 3,
   },
   {
     title: "Pig Game",
@@ -37,7 +47,7 @@ export const projects = [
     tags: ["JavaScript", "Sass", "HTML"],
     source: "https://pig-dice-game-project.netlify.app/",
     visit: "https://github.com/alexandrezahrai/pig-game",
-    id: 3,
+    id: 4,
   },
 ];
 

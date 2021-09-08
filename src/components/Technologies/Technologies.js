@@ -20,7 +20,7 @@ const Technologies = () => (
       Technologies & Skills:
     </SectionTitle>
     <SectionText>
-      From front-end to UI/UX design, I have experience working with a range of
+      From React to Bootstrap, I have experience working with a range of
       web-related tools and technologies. Nonetheless, I'm always willing and
       eager to expand my knowledge.
     </SectionText>
@@ -50,7 +50,7 @@ const Technologies = () => (
               <Icon src="/bootstrap-logo.png" />
             </IconContainer>
             <IconContainer>
-              <Icon src="/next-logo.svg" />
+              <Icon src="/firebase-icon.svg" />
             </IconContainer>
           </ListParagraph>
         </ListContainer>
